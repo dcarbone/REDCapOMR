@@ -7,4 +7,4 @@ services:
 			dockerfile: Dockerfile
 		container_name: redcap-omr
 		volumes:
-			- "./vendor:/var/www/"
+			- "./:/var/www/html"
